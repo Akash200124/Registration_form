@@ -1,0 +1,94 @@
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color:rgb(2, 17, 30);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+body input , button {
+    font-size: medium;
+}
+.form_container{
+    margin-top: 20px;
+    width: 80vh;
+    border-radius: 10px;
+    height: 80vh;
+    padding: 10px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+
+}
+
+form input{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: 2px solid rgb(113, 113, 237);
+}
+
+form button{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.add_div{
+    width: 100%;
+    padding: 20px;
+    
+}
+
+.add_div button{
+    padding: 8px;
+    border-radius: 7px;
+    color: white;
+    background-color: green;
+    margin-left: 20px;
+    font-size: medium;
+}
+
+.add_div :hover{
+    cursor: pointer;
+    background-color: rgp(2,52,2);
+}
+
+table{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.update_form , .create_form {
+    display: none;
+}
+
+table .edit {
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    padding: 8px;
+    margin: 4px;
+    border-radius: 4px;
+    font-size: medium;
+}
+
+table .delete {
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    padding: 8px;
+    margin: 4px;
+    border-radius: 4px;
+    font-size: medium;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="from">
+        <div class="container">
+
+            <h2>Registration Form</h2>
+            <div class="values">
+
+                <form id="dataform">
+                    <label for="name">Name:<span>*</span></label> 
+                    <input type="text" name="" id="name" required>
+
+                    <label for="email">Email:<span>*</span></label>
+                    <input type="email" name="" id="email"required>
+
+                    <label for="phone">Phone(optional)</label>
+                    <input type="number" name="" id="phone">
+
+                    <label for="add">Address:<span>*</span></label>
+                    <input type="text" name="" id="add" required>
+
+                    <label for="state">State:</label>
+                    <input type="text" name="" id="state">
+
+                    <label for="country">Country:<span>*</span></label>
+                     <input type="text" name="" id="country"required>
+
+                        <label for="zip">Pin code:<span>*</span></label>
+                        <input type="number" name="" id="zip"required>
+                        <div class="btn">
+                            <button id="sbtn" onclick="create()" type="submit">Register</button>
+                        </div>
+                </form>
+
+               
+
+            </div>
+        </div>
+    </div>
+
+    <div class="data">
+        <table id="tabledata">
+            <thead>
+            <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th>State</th>
+            <th>Country</th>
+            <th>Pin code</th>
+        </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+       
+        </table>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
